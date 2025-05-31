@@ -25,7 +25,7 @@ systemctl restart zabbix-server zabbix-agent apache2
 systemctl enable zabbix-server zabbix-agent apache2
 
 ```
-3. Так же был отредктирован файл `/etc/zabbix/zabbix_server.conf`
+3. Так же был отредактирован файл `/etc/zabbix/zabbix_server.conf`
 
 
 ---
