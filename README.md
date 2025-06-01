@@ -6,8 +6,8 @@
 
 1. Вход в админку Zabbix
 
-![Снимок](/img/img1.png)
-2. Список использованных команд для
+![Снимок](/img/img5.jpg)
+1. Список использованных команд для
 ```
 sudo apt install postgresql -y
 wget https://repo.zabbix.com/zabbix/7.2/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.2+ubuntu24.04_all.deb
@@ -33,14 +33,14 @@ systemctl enable zabbix-server zabbix-agent apache2
 1. Cкриншот раздела Configuration
 ![hosts](/img/img2.png)
 
-2. Cкриншот лога zabbix agent, но в него записалась только ошибка подключения до перезапуска демона агента
+1. Cкриншот лога zabbix agent
 
-![log](/img/img3.png)
+![log](/img/img6.jpg)
 
-3. Скриншот раздела Monitoring
+1. Скриншот раздела Monitoring
 ![monitoring](/img/img4.png)
 
-4. Список использованных команд
+1. Список использованных команд
 ```
 wget https://repo.zabbix.com/zabbix/7.2/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.2+ubuntu24.04_all.deb
 dpkg -i zabbix-release_latest_7.2+ubuntu24.04_all.deb
